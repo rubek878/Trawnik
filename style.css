@@ -42,6 +42,14 @@ body {
   border-color: #727651;
   text-align: center;
 }
+.prawo:hover{
+  border: solid;
+  cursor: pointer;
+}
+.prawol:hover{
+  border: solid;
+  cursor: pointer;
+}
 .dodatek {
   width: 50vw;
   height: 7.5vh;
@@ -49,19 +57,57 @@ body {
   background-color: #f9f4ee;
   text-align: center;
   font-size: 3vw;
+  border-bottom: solid;
+  border-top: solid;
+  margin-bottom: 0;
 }
 .przycisk1{
 margin-left: 20vw;
+margin-right: 0;
 }
 .przycisk{
   margin-left: 2px;
+  margin-right: 0;
 }
 .aut {
   font-size: 2vw;
   text-decoration: none;
 }
+.czerwone
+{
+  color: red;
+}
+.czerwone:hover{
+  cursor: pointer;
+  color: blue;
+}
 .aut:hover {
   color: white;
+}
+#zdjecia{
+  text-align: right;
+  width: 45vw;
+  height: 600px;
+  margin-left: 25vw;
+  position: absolute;
+  visibility: hidden;
+}
+#zdjecia span:hover{
+  cursor: pointer;
+}
+#zdjecia span{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  background-color: olivedrab;
+  margin-top: -7vh;
+  z-index: 1;
+}
+#zdjecia img{
+  width: 50vw;
+  height: 80vh;
+  margin-top: -7vh;
+  position: absolute;
+  margin-left: -48vw;
 }
 .prawoj {
   margin-top: 0.75vh;
@@ -79,8 +125,9 @@ margin-left: 20vw;
   font-size: 2vw;
 }
 .colorn:hover {
-  color: rgb(35, 35, 138);
+  color: rgb(45, 138, 35);
   background-color: #9f9f89;
+  cursor: pointer;
 }
 #gui{
   width: 60%;
