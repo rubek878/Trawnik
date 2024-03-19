@@ -16,6 +16,7 @@ body {
   width: 50vw;
   height: 100vh;
   float: left;
+  font-size: 125%;
 }
 .zdj {
   width: 10vw;
@@ -49,6 +50,12 @@ body {
   text-align: center;
   font-size: 3vw;
 }
+.przycisk1{
+margin-left: 20vw;
+}
+.przycisk{
+  margin-left: 2px;
+}
 .aut {
   font-size: 2vw;
   text-decoration: none;
@@ -74,4 +81,11 @@ body {
 .colorn:hover {
   color: rgb(35, 35, 138);
   background-color: #9f9f89;
+}
+#gui{
+  width: 60%;
+  height: 60%;
+  background-color: black;
+  margin-bottom: 25vh;
+  margin-left: 25vw;
 }
