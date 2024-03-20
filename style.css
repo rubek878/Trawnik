@@ -18,6 +18,14 @@ body {
   float: left;
   font-size: 125%;
 }
+.srodek{
+  text-align: center;
+}
+.lewo iframe{
+  margin-left: 7vw;
+  border: solid;
+  border: 5px;
+}
 .zdj {
   width: 10vw;
   height: 25vh;
@@ -61,8 +69,17 @@ body {
   border-top: solid;
   margin-bottom: 0;
 }
+.inter
+{
+  color: red;
+  font-size: 1vw;
+}
 .przycisk1{
 margin-left: 20vw;
+margin-right: 0;
+}
+.przycisk2{
+margin-left: 15vw;
 margin-right: 0;
 }
 .przycisk{
@@ -125,7 +142,7 @@ margin-right: 0;
   font-size: 2vw;
 }
 .colorn:hover {
-  color: rgb(45, 138, 35);
+  color: rgb(255, 255, 255);
   background-color: #9f9f89;
   cursor: pointer;
 }
