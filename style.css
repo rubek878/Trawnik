@@ -16,7 +16,7 @@ body {
   width: 50vw;
   height: 100vh;
   float: left;
-  font-size: 125%;
+  font-size: 80%;
 }
 .srodek{
   text-align: center;
@@ -39,6 +39,7 @@ body {
   float: right;
   border: solid;
   border-color: #727651;
+  font-size: 80%;
 }
 .prawol {
   margin-top: 0.75vh;
