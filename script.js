@@ -66,7 +66,6 @@ function wylaczzdj(){
   document.getElementById('zdj11').style.visibility="hidden"
   document.getElementById('zdj12').style.visibility="hidden"
   document.getElementById('zdj13').style.visibility="hidden"
-
 }
 function jeden(){
     document.getElementById('zdj1').style.visibility="visible"
