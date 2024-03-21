@@ -8,6 +8,12 @@ body {
   height: 7.5vh;
   float: inline-start;
 }
+#mapa
+{
+  width: 25vw;
+  height: 44vh;
+  margin-left: 1vw;
+}
 .top {
   width: 100vw;
   height: 12.5vh;
@@ -30,9 +36,9 @@ body {
   text-align: center;
 }
 .lewo iframe{
-  margin-left: 7vw;
-  border: solid;
-  border: 5px;
+  width: 25vw;
+  height: 44vh;
+  margin-left: 2vw;
 }
 .zdj {
   width: 10vw;
