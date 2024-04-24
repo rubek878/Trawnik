@@ -8,6 +8,9 @@ body {
   height: 7.5vh;
   float: inline-start;
 }
+#lews{
+  visibility: hidden;
+}
 #mapa
 {
   width: 25vw;
